@@ -1,0 +1,65 @@
+[5.608s] Invoking command in '/home/murad/advanced_robotics_project/iris/src/iris_drone': PYTHONPATH=/home/murad/advanced_robotics_project/iris/build/iris_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iris_drone build --build-base /home/murad/advanced_robotics_project/iris/build/iris_drone/build install --record /home/murad/advanced_robotics_project/iris/build/iris_drone/install.log --single-version-externally-managed install_data
+[7.936s] running egg_info
+[8.021s] writing ../../build/iris_drone/iris_drone.egg-info/PKG-INFO
+[8.024s] writing dependency_links to ../../build/iris_drone/iris_drone.egg-info/dependency_links.txt
+[8.025s] writing entry points to ../../build/iris_drone/iris_drone.egg-info/entry_points.txt
+[8.027s] writing requirements to ../../build/iris_drone/iris_drone.egg-info/requires.txt
+[8.028s] writing top-level names to ../../build/iris_drone/iris_drone.egg-info/top_level.txt
+[8.203s] reading manifest file '../../build/iris_drone/iris_drone.egg-info/SOURCES.txt'
+[8.216s] writing manifest file '../../build/iris_drone/iris_drone.egg-info/SOURCES.txt'
+[8.219s] running build
+[8.221s] running build_py
+[8.223s] copying iris_drone/__init__.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone
+[8.224s] copying iris_drone/odom_publisher.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone
+[8.227s] copying iris_drone/mission.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone
+[8.231s] copying iris_drone/real_time_node.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone
+[8.233s] copying iris_drone/dynamic_tf.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone
+[8.236s] copying iris_drone/ardupilot.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone
+[8.241s] copying iris_drone/test.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone
+[8.247s] running install
+[8.290s] running install_lib
+[8.475s] copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/__init__.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone
+[8.478s] copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/odom_publisher.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone
+[8.483s] copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/mission.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone
+[8.484s] copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/real_time_node.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone
+[8.485s] copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/dynamic_tf.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone
+[8.487s] copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/ardupilot.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone
+[8.488s] copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/test.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone
+[8.490s] byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/__init__.py to __init__.cpython-310.pyc
+[8.493s] byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/odom_publisher.py to odom_publisher.cpython-310.pyc
+[8.502s] byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/mission.py to mission.cpython-310.pyc
+[8.522s] byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/real_time_node.py to real_time_node.cpython-310.pyc
+[8.532s] byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/dynamic_tf.py to dynamic_tf.cpython-310.pyc
+[8.539s] byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/yolo_detection.py to yolo_detection.cpython-310.pyc
+[8.549s] byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/ardupilot.py to ardupilot.cpython-310.pyc
+[8.552s] byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/test.py to test.cpython-310.pyc
+[8.561s] running install_data
+[8.565s] copying resource/iris_drone -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/ament_index/resource_index/packages
+[8.566s] copying package.xml -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone
+[8.569s] copying launch/iris_publisher.launch.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/launch
+[8.571s] copying launch/iris.launch.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/launch
+[8.575s] copying models/iris_with_standoffs/meshes/iris_prop_cw.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone
+[8.582s] copying models/iris_with_standoffs/meshes/iris_prop_ccw.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone
+[8.586s] copying models/iris_with_standoffs/meshes/iris.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone
+[8.948s] copying models/iris_with_standoffs_lidar/meshes/iris_prop_cw.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone
+[8.957s] copying models/iris_with_standoffs_lidar/meshes/iris_prop_ccw.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone
+[8.968s] copying models/iris_with_standoffs_lidar/meshes/iris.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone
+[9.384s] copying worlds/OUR.world -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds
+[9.391s] copying worlds/iris_warehouse.sdf -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds
+[9.393s] copying worlds/iris_arducopter_runway.world -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds
+[9.395s] copying worlds/empty.world -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds
+[9.396s] copying worlds/iris_arducopter_cmac.world -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds
+[9.399s] copying urdf/iris_demo.xacro -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/urdf
+[9.402s] copying rviz/rviz.rviz -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/rviz
+[9.404s] copying config/ekf_config.yaml -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/config
+[9.406s] running install_egg_info
+[9.609s] removing '/home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone-0.0.0-py3.10.egg-info' (and everything under it)
+[9.616s] Copying ../../build/iris_drone/iris_drone.egg-info to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone-0.0.0-py3.10.egg-info
+[9.629s] running install_scripts
+[11.191s] Installing ardupilot script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone
+[11.194s] Installing mission script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone
+[11.197s] Installing odom_pub script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone
+[11.199s] Installing test script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone
+[11.203s] Installing tf_pub script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone
+[11.205s] writing list of installed files to '/home/murad/advanced_robotics_project/iris/build/iris_drone/install.log'
+[11.381s] Invoked command in '/home/murad/advanced_robotics_project/iris/src/iris_drone' returned '0': PYTHONPATH=/home/murad/advanced_robotics_project/iris/build/iris_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iris_drone build --build-base /home/murad/advanced_robotics_project/iris/build/iris_drone/build install --record /home/murad/advanced_robotics_project/iris/build/iris_drone/install.log --single-version-externally-managed install_data

@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000647] (iris_drone) JobQueued: {'identifier': 'iris_drone', 'dependencies': OrderedDict()}
+[0.000775] (iris_drone) JobStarted: {'identifier': 'iris_drone'}
+[0.096247] (-) TimerEvent: {}
+[0.198476] (-) TimerEvent: {}
+[0.299421] (-) TimerEvent: {}
+[0.401363] (-) TimerEvent: {}
+[0.504091] (-) TimerEvent: {}
+[0.604655] (-) TimerEvent: {}
+[0.705488] (-) TimerEvent: {}
+[0.806649] (-) TimerEvent: {}
+[0.908253] (-) TimerEvent: {}
+[1.009706] (-) TimerEvent: {}
+[1.110747] (-) TimerEvent: {}
+[1.211976] (-) TimerEvent: {}
+[1.312768] (-) TimerEvent: {}
+[1.414080] (-) TimerEvent: {}
+[1.515213] (-) TimerEvent: {}
+[1.616223] (-) TimerEvent: {}
+[1.717378] (-) TimerEvent: {}
+[1.818266] (-) TimerEvent: {}
+[1.920414] (-) TimerEvent: {}
+[2.021673] (-) TimerEvent: {}
+[2.122661] (-) TimerEvent: {}
+[2.223464] (-) TimerEvent: {}
+[2.324763] (-) TimerEvent: {}
+[2.425845] (-) TimerEvent: {}
+[2.526746] (-) TimerEvent: {}
+[2.627784] (-) TimerEvent: {}
+[2.728764] (-) TimerEvent: {}
+[2.830404] (-) TimerEvent: {}
+[2.932714] (-) TimerEvent: {}
+[3.033940] (-) TimerEvent: {}
+[3.135251] (-) TimerEvent: {}
+[3.237122] (-) TimerEvent: {}
+[3.338974] (-) TimerEvent: {}
+[3.441446] (-) TimerEvent: {}
+[3.542887] (-) TimerEvent: {}
+[3.644254] (-) TimerEvent: {}
+[3.745810] (-) TimerEvent: {}
+[3.849326] (-) TimerEvent: {}
+[3.951813] (-) TimerEvent: {}
+[4.053245] (-) TimerEvent: {}
+[4.154900] (-) TimerEvent: {}
+[4.257268] (-) TimerEvent: {}
+[4.359752] (-) TimerEvent: {}
+[4.460957] (-) TimerEvent: {}
+[4.561988] (-) TimerEvent: {}
+[4.663208] (-) TimerEvent: {}
+[4.765419] (-) TimerEvent: {}
+[4.867162] (-) TimerEvent: {}
+[4.968787] (-) TimerEvent: {}
+[5.070171] (-) TimerEvent: {}
+[5.171327] (-) TimerEvent: {}
+[5.272502] (-) TimerEvent: {}
+[5.374472] (-) TimerEvent: {}
+[5.475805] (-) TimerEvent: {}
+[5.577131] (-) TimerEvent: {}
+[5.603914] (iris_drone) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/iris_drone', 'build', '--build-base', '/home/murad/advanced_robotics_project/iris/build/iris_drone/build', 'install', '--record', '/home/murad/advanced_robotics_project/iris/build/iris_drone/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/murad/advanced_robotics_project/iris/src/iris_drone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IL:en', 'USER': 'murad', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build', 'HOME': '/home/murad', 'OLDPWD': '/home/murad/advanced_robotics_project', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1221', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b22b15e66f30f133248ea81e67688127', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'murad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'murad', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/home/murad/ardupilot_gazebo/models:/home/murad/ardupilot_gazebo/models:/home/murad/ardupilot_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/murad:@/tmp/.ICE-unix/1221,unix/murad:/tmp/.ICE-unix/1221', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/77a2ded7_2020_400c_8853_35ccf05e02cb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LBZGZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.205', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/murad/advanced_robotics_project/iris/build/iris_drone', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build:/home/murad/ardupilot_gazebo/build', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b22b15e66f30f133248ea81e67688127', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/murad/advanced_robotics_project/iris/build/iris_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.677656] (-) TimerEvent: {}
+[5.779019] (-) TimerEvent: {}
+[5.881920] (-) TimerEvent: {}
+[5.983356] (-) TimerEvent: {}
+[6.085470] (-) TimerEvent: {}
+[6.187331] (-) TimerEvent: {}
+[6.288653] (-) TimerEvent: {}
+[6.389780] (-) TimerEvent: {}
+[6.492151] (-) TimerEvent: {}
+[6.593757] (-) TimerEvent: {}
+[6.694901] (-) TimerEvent: {}
+[6.795826] (-) TimerEvent: {}
+[6.898244] (-) TimerEvent: {}
+[6.999351] (-) TimerEvent: {}
+[7.100453] (-) TimerEvent: {}
+[7.202486] (-) TimerEvent: {}
+[7.303788] (-) TimerEvent: {}
+[7.405819] (-) TimerEvent: {}
+[7.507714] (-) TimerEvent: {}
+[7.609847] (-) TimerEvent: {}
+[7.711911] (-) TimerEvent: {}
+[7.814391] (-) TimerEvent: {}
+[7.915368] (-) TimerEvent: {}
+[7.936718] (iris_drone) StdoutLine: {'line': b'running egg_info\n'}
+[8.015631] (-) TimerEvent: {}
+[8.021794] (iris_drone) StdoutLine: {'line': b'writing ../../build/iris_drone/iris_drone.egg-info/PKG-INFO\n'}
+[8.024597] (iris_drone) StdoutLine: {'line': b'writing dependency_links to ../../build/iris_drone/iris_drone.egg-info/dependency_links.txt\n'}
+[8.025812] (iris_drone) StdoutLine: {'line': b'writing entry points to ../../build/iris_drone/iris_drone.egg-info/entry_points.txt\n'}
+[8.027376] (iris_drone) StdoutLine: {'line': b'writing requirements to ../../build/iris_drone/iris_drone.egg-info/requires.txt\n'}
+[8.028623] (iris_drone) StdoutLine: {'line': b'writing top-level names to ../../build/iris_drone/iris_drone.egg-info/top_level.txt\n'}
+[8.115936] (-) TimerEvent: {}
+[8.203007] (iris_drone) StdoutLine: {'line': b"reading manifest file '../../build/iris_drone/iris_drone.egg-info/SOURCES.txt'\n"}
+[8.216312] (iris_drone) StdoutLine: {'line': b"writing manifest file '../../build/iris_drone/iris_drone.egg-info/SOURCES.txt'\n"}
+[8.217259] (-) TimerEvent: {}
+[8.219393] (iris_drone) StdoutLine: {'line': b'running build\n'}
+[8.220452] (iris_drone) StdoutLine: {'line': b'running build_py\n'}
+[8.221698] (iris_drone) StdoutLine: {'line': b'copying iris_drone/__init__.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone\n'}
+[8.224009] (iris_drone) StdoutLine: {'line': b'copying iris_drone/odom_publisher.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone\n'}
+[8.227260] (iris_drone) StdoutLine: {'line': b'copying iris_drone/mission.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone\n'}
+[8.231195] (iris_drone) StdoutLine: {'line': b'copying iris_drone/real_time_node.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone\n'}
+[8.233018] (iris_drone) StdoutLine: {'line': b'copying iris_drone/dynamic_tf.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone\n'}
+[8.236456] (iris_drone) StdoutLine: {'line': b'copying iris_drone/ardupilot.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone\n'}
+[8.240751] (iris_drone) StdoutLine: {'line': b'copying iris_drone/test.py -> /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone\n'}
+[8.246424] (iris_drone) StdoutLine: {'line': b'running install\n'}
+[8.290440] (iris_drone) StdoutLine: {'line': b'running install_lib\n'}
+[8.317792] (-) TimerEvent: {}
+[8.419319] (-) TimerEvent: {}
+[8.475698] (iris_drone) StdoutLine: {'line': b'copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/__init__.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone\n'}
+[8.477844] (iris_drone) StdoutLine: {'line': b'copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/odom_publisher.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone\n'}
+[8.481580] (iris_drone) StdoutLine: {'line': b'copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/mission.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone\n'}
+[8.484697] (iris_drone) StdoutLine: {'line': b'copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/real_time_node.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone\n'}
+[8.485419] (iris_drone) StdoutLine: {'line': b'copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/dynamic_tf.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone\n'}
+[8.486140] (iris_drone) StdoutLine: {'line': b'copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/ardupilot.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone\n'}
+[8.488388] (iris_drone) StdoutLine: {'line': b'copying /home/murad/advanced_robotics_project/iris/build/iris_drone/build/lib/iris_drone/test.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone\n'}
+[8.489608] (iris_drone) StdoutLine: {'line': b'byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/__init__.py to __init__.cpython-310.pyc\n'}
+[8.493346] (iris_drone) StdoutLine: {'line': b'byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/odom_publisher.py to odom_publisher.cpython-310.pyc\n'}
+[8.501959] (iris_drone) StdoutLine: {'line': b'byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/mission.py to mission.cpython-310.pyc\n'}
+[8.519889] (-) TimerEvent: {}
+[8.521954] (iris_drone) StdoutLine: {'line': b'byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/real_time_node.py to real_time_node.cpython-310.pyc\n'}
+[8.532156] (iris_drone) StdoutLine: {'line': b'byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/dynamic_tf.py to dynamic_tf.cpython-310.pyc\n'}
+[8.539407] (iris_drone) StdoutLine: {'line': b'byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/yolo_detection.py to yolo_detection.cpython-310.pyc\n'}
+[8.549398] (iris_drone) StdoutLine: {'line': b'byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/ardupilot.py to ardupilot.cpython-310.pyc\n'}
+[8.552445] (iris_drone) StdoutLine: {'line': b'byte-compiling /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone/test.py to test.cpython-310.pyc\n'}
+[8.560868] (iris_drone) StdoutLine: {'line': b'running install_data\n'}
+[8.564936] (iris_drone) StdoutLine: {'line': b'copying resource/iris_drone -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/ament_index/resource_index/packages\n'}
+[8.566172] (iris_drone) StdoutLine: {'line': b'copying package.xml -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone\n'}
+[8.567950] (iris_drone) StdoutLine: {'line': b'copying launch/iris_publisher.launch.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/launch\n'}
+[8.571422] (iris_drone) StdoutLine: {'line': b'copying launch/iris.launch.py -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/launch\n'}
+[8.574975] (iris_drone) StdoutLine: {'line': b'copying models/iris_with_standoffs/meshes/iris_prop_cw.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone\n'}
+[8.582227] (iris_drone) StdoutLine: {'line': b'copying models/iris_with_standoffs/meshes/iris_prop_ccw.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone\n'}
+[8.586277] (iris_drone) StdoutLine: {'line': b'copying models/iris_with_standoffs/meshes/iris.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone\n'}
+[8.620495] (-) TimerEvent: {}
+[8.721922] (-) TimerEvent: {}
+[8.824872] (-) TimerEvent: {}
+[8.926865] (-) TimerEvent: {}
+[8.948376] (iris_drone) StdoutLine: {'line': b'copying models/iris_with_standoffs_lidar/meshes/iris_prop_cw.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone\n'}
+[8.957407] (iris_drone) StdoutLine: {'line': b'copying models/iris_with_standoffs_lidar/meshes/iris_prop_ccw.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone\n'}
+[8.967925] (iris_drone) StdoutLine: {'line': b'copying models/iris_with_standoffs_lidar/meshes/iris.dae -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone\n'}
+[9.027394] (-) TimerEvent: {}
+[9.129214] (-) TimerEvent: {}
+[9.230937] (-) TimerEvent: {}
+[9.332816] (-) TimerEvent: {}
+[9.383822] (iris_drone) StdoutLine: {'line': b'copying worlds/OUR.world -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds\n'}
+[9.389239] (iris_drone) StdoutLine: {'line': b'copying worlds/iris_warehouse.sdf -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds\n'}
+[9.393202] (iris_drone) StdoutLine: {'line': b'copying worlds/iris_arducopter_runway.world -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds\n'}
+[9.395353] (iris_drone) StdoutLine: {'line': b'copying worlds/empty.world -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds\n'}
+[9.396149] (iris_drone) StdoutLine: {'line': b'copying worlds/iris_arducopter_cmac.world -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/worlds\n'}
+[9.399033] (iris_drone) StdoutLine: {'line': b'copying urdf/iris_demo.xacro -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/urdf\n'}
+[9.401771] (iris_drone) StdoutLine: {'line': b'copying rviz/rviz.rviz -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/rviz\n'}
+[9.404091] (iris_drone) StdoutLine: {'line': b'copying config/ekf_config.yaml -> /home/murad/advanced_robotics_project/iris/install/iris_drone/share/iris_drone/config\n'}
+[9.406765] (iris_drone) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.433766] (-) TimerEvent: {}
+[9.536938] (-) TimerEvent: {}
+[9.609189] (iris_drone) StdoutLine: {'line': b"removing '/home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.615493] (iris_drone) StdoutLine: {'line': b'Copying ../../build/iris_drone/iris_drone.egg-info to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone-0.0.0-py3.10.egg-info\n'}
+[9.627432] (iris_drone) StdoutLine: {'line': b'running install_scripts\n'}
+[9.637451] (-) TimerEvent: {}
+[9.739039] (-) TimerEvent: {}
+[9.840697] (-) TimerEvent: {}
+[9.942223] (-) TimerEvent: {}
+[10.043989] (-) TimerEvent: {}
+[10.145902] (-) TimerEvent: {}
+[10.248875] (-) TimerEvent: {}
+[10.350162] (-) TimerEvent: {}
+[10.451682] (-) TimerEvent: {}
+[10.555373] (-) TimerEvent: {}
+[10.656754] (-) TimerEvent: {}
+[10.758823] (-) TimerEvent: {}
+[10.860324] (-) TimerEvent: {}
+[10.963144] (-) TimerEvent: {}
+[11.064360] (-) TimerEvent: {}
+[11.166788] (-) TimerEvent: {}
+[11.190697] (iris_drone) StdoutLine: {'line': b'Installing ardupilot script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone\n'}
+[11.194233] (iris_drone) StdoutLine: {'line': b'Installing mission script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone\n'}
+[11.197069] (iris_drone) StdoutLine: {'line': b'Installing odom_pub script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone\n'}
+[11.199170] (iris_drone) StdoutLine: {'line': b'Installing test script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone\n'}
+[11.203274] (iris_drone) StdoutLine: {'line': b'Installing tf_pub script to /home/murad/advanced_robotics_project/iris/install/iris_drone/lib/iris_drone\n'}
+[11.205419] (iris_drone) StdoutLine: {'line': b"writing list of installed files to '/home/murad/advanced_robotics_project/iris/build/iris_drone/install.log'\n"}
+[11.267281] (-) TimerEvent: {}
+[11.370220] (-) TimerEvent: {}
+[11.380637] (iris_drone) CommandEnded: {'returncode': 0}
+[11.470461] (-) TimerEvent: {}
+[11.561891] (iris_drone) JobEnded: {'identifier': 'iris_drone', 'rc': 0}
+[11.567851] (-) EventReactorShutdown: {}
