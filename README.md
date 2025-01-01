@@ -2,7 +2,7 @@
 
 This project works best on ubuntu 22.04
 
-## Setting Up ROS2
+## Step 1: Setting Up ROS2
 
 Set locale
 
@@ -85,3 +85,76 @@ In another terminal source the setup file and then run a Python listener:
 
 `ros2 run demo_nodes_py listener`
 
+# Step 2: Clone the Advanced Robotics Project Repository
+
+`cd ~`
+
+`git clone https://github.com/MuradMu/advanced_robotics_project.git`
+
+`cd ~/advanced_robotics_project`
+
+# Step 3: Install and Configure Gazebo
+
+    Install Gazebo (compatible version):
+
+`sudo apt install -y gazebo11 libgazebo11-dev`
+
+Install ROS2 Gazebo bridge:
+
+`sudo apt install -y ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control`
+
+# Step 4: Install and Configure ArduPilot
+
+    Clone ArduPilot:
+
+`cd ~/advanced_robotics_project`
+
+`git clone https://github.com/ArduPilot/ardupilot.git`
+
+`cd ardupilot`
+
+`git submodule update --init --recursive`
+
+Install prerequisites:
+
+`./Tools/environment_install/install-prereqs-ubuntu.sh -y`
+
+`. ~/.profile`
+
+Build SITL (Software In The Loop):
+
+`./waf configure --board sitl`
+
+`./waf build`
+
+Test SITL:
+
+`./build/sitl/bin/arducopter --model quad`
+
+# Step 5: Install YOLOv7
+
+    Clone YOLOv7 repository:
+
+`cd ~/advanced_robotics_project`
+
+`git clone https://github.com/WongKinYiu/yolov7.git`
+
+`cd yolov7`
+
+Install YOLOv7 dependencies:
+
+`pip install -r requirements.txt`
+
+# Testing After Setup
+
+Verify Gazebo launch:
+
+`gazebo`
+
+Verify ArduPilot SITL:
+
+`./build/sitl/bin/arducopter --model quad`
+
+Test YOLOv7 with a sample image:
+
+`python detect.py --weights yolov7.pt --conf 0.25 --source test.jpg`
