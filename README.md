@@ -95,17 +95,14 @@ In another terminal source the setup file and then run a Python listener:
 
 # Step 3: Install and Configure Gazebo
 
-    Install Gazebo (compatible version):
+Install Gazebo (compatible version):
 
-`sudo apt install -y gazebo11 libgazebo11-dev`
+`sudo apt install -y ros-humble-gazebo-ros-pkgs`
 
-Install ROS2 Gazebo bridge:
-
-`sudo apt install -y ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control`
 
 # Step 4: Install and Configure ArduPilot
 
-    Clone ArduPilot:
+Clone ArduPilot:
 
 `cd ~/advanced_robotics_project`
 
