@@ -99,6 +99,10 @@ Install Gazebo (compatible version):
 
 `sudo apt install -y ros-humble-gazebo-ros-pkgs`
 
+`echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc`
+
+`source ~/.bashrc`
+
 
 # Step 4: Install and Configure ArduPilot
 
