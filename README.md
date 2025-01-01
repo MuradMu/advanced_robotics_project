@@ -153,8 +153,16 @@ Verify Gazebo launch:
 
 Verify ArduPilot SITL:
 
-`./build/sitl/bin/arducopter --model quad`
+`cd ~/advanced_robotics_project/ardupilot/ArduCopter`
+
+`sim_vehicle.py -v ArduCopter -f gazebo-iris --console --map`
+
 
 Test YOLOv7 with a sample image:
 
-`python detect.py --weights yolov7.pt --conf 0.25 --source test.jpg`
+`cd ~/advanced_robotics_project/yolov7`
+
+`source yolov7_env/bin/activate`
+
+`python detect.py --source inference/images/horses.jpg --weights yolov7.pt`
+
