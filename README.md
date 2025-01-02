@@ -180,6 +180,8 @@ In one Terminal (Terminal 1), run Gazebo:
 
 In another Terminal (Terminal 2), run SITL:
 
+`cd ~/advanced_robotics_project/ardupilot/ArduCopter`
+
 `sim_vehicle.py -v ArduCopter -f gazebo-iris --console`
 
 
