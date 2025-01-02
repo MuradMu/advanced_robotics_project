@@ -146,6 +146,43 @@ Install YOLOv7 dependencies:
 
 `pip install -r requirements.txt`
 
+# Install Gazebo plugin for APM (ArduPilot Master) :
+
+`cd ~/advanced_robotics_project`
+
+`git clone https://github.com/khancyr/ardupilot_gazebo.git`
+
+`cd ardupilot_gazebo`
+
+build and install plugin
+
+mkdir build
+cd build
+cmake ..
+make -j4
+sudo make install
+
+`echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc`
+
+Set paths for models:
+
+`echo 'export GAZEBO_MODEL_PATH=~/advanced_robotics_project/ardupilot_gazebo/models' >> ~/.bashrc`
+
+`. ~/.bashrc`
+
+Run Simulator
+
+NOTE the iris_arducopter_runway is not currently working in gazebo11. The iq_sim worlds DO work
+
+In one Terminal (Terminal 1), run Gazebo:
+
+`gazebo --verbose ~/advanced_robotics_project/ardupilot_gazebo/worlds/iris_arducopter_runway.world`
+
+In another Terminal (Terminal 2), run SITL:
+
+`sim_vehicle.py -v ArduCopter -f gazebo-iris --console`
+
+
 # Testing After Setup
 
 Verify Gazebo launch:
