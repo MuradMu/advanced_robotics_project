@@ -85,6 +85,16 @@ In another terminal source the setup file and then run a Python listener:
 
 `ros2 run demo_nodes_py listener`
 
+# Install MAVROS for ROS2
+
+MAVROS bridges ROS2 and ArduPilot.
+
+Install MAVROS dependencies:
+
+`sudo apt update`
+
+`sudo apt install -y ros-humble-mavros ros-humble-mavros-extras`
+
 # Step 2: Clone the Advanced Robotics Project Repository
 
 `cd ~`
