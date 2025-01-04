@@ -180,13 +180,15 @@ Install YOLOv7 dependencies:
 
 build and install plugin
 
-`mkdir -p build`
+`mkdir build`
 
 `cd build`
 
 `cmake ..`
 
-`make`
+`make -j4`
+
+`sudo make install`
 
 `echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc`
 
