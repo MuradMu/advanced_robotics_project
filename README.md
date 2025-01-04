@@ -152,6 +152,10 @@ Then reload your shell with:
 
 `source ~/.bashrc`
 
+install mavproxy:
+
+`sudo pip3 install MAVProxy`
+
 # Step 5: Install YOLOv7
 
 Clone YOLOv7 repository:
