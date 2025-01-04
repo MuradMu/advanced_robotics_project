@@ -180,11 +180,11 @@ Install YOLOv7 dependencies:
 
 build and install plugin
 
-mkdir build
+cd ~/advanced_robotics_project/ardupilot_gazebo
+mkdir -p build
 cd build
 cmake ..
-make -j4
-sudo make install
+make
 
 `echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc`
 
