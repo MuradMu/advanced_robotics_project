@@ -142,9 +142,19 @@ Test SITL:
 
 `./build/sitl/bin/arducopter --model quad`
 
+sim_vehicle.py might not be in your PATH. If you’ve installed ArduPilot in the ~/advanced_robotics_project/ardupilot directory, you need to ensure the Tools/autotest directory is included in your PATH.
+
+Add the following line to your ~/.bashrc file:
+
+`export PATH=$PATH:~/advanced_robotics_project/ardupilot/Tools/autotest`
+
+Then reload your shell with:
+
+`source ~/.bashrc`
+
 # Step 5: Install YOLOv7
 
-    Clone YOLOv7 repository:
+Clone YOLOv7 repository:
 
 `cd ~/advanced_robotics_project`
 
