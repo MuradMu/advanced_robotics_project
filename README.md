@@ -142,9 +142,23 @@ Test SITL:
 
 `./build/sitl/bin/arducopter --model quad`
 
+sim_vehicle.py might not be in your PATH. If you’ve installed ArduPilot in the ~/advanced_robotics_project/ardupilot directory, you need to ensure the Tools/autotest directory is included in your PATH.
+
+Add the following line to your ~/.bashrc file:
+
+`export PATH=$PATH:~/advanced_robotics_project/ardupilot/Tools/autotest`
+
+Then reload your shell with:
+
+`source ~/.bashrc`
+
+install mavproxy:
+
+`sudo pip3 install MAVProxy`
+
 # Step 5: Install YOLOv7
 
-    Clone YOLOv7 repository:
+Clone YOLOv7 repository:
 
 `cd ~/advanced_robotics_project`
 
@@ -166,11 +180,15 @@ Install YOLOv7 dependencies:
 
 build and install plugin
 
-mkdir build
-cd build
-cmake ..
-make -j4
-sudo make install
+`mkdir build`
+
+`cd build`
+
+`cmake ..`
+
+`make -j4`
+
+`sudo make install`
 
 `echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc`
 
@@ -214,5 +232,37 @@ Test YOLOv7 with a sample image:
 
 `source yolov7_env/bin/activate`
 
+# building the project
+
+`echo 'export GAZEBO_MODEL_PATH=~/advanced_robotics_project/iris/src/iris_drone/models' >> ~/.bashrc`
+
+`echo 'export GAZEBO_RESOURCE_PATH=~/advanced_robotics_project/iris/src/iris_drone/worlds:${GAZEBO_RESOURCE_PATH}' >> ~/.bashrc`
+
+`echo 'source $HOME/advanced_robotics_project/ardupilot/Tools/completion/completion.bash' >> ~/.bashrc`
+
+
+
+
 `python detect.py --source inference/images/horses.jpg --weights yolov7.pt`
 
+`cd ~/advanced_robotics_project/iris`
+
+`sudo apt update`
+
+`sudo apt install python3-rosdep2`
+
+`rosdep update`
+
+`rosdep install -y --from-paths src --ignore-src -r`
+
+`sudo apt install python3-colcon-common-extensions -y`
+
+`export PATH=$PATH:~/.local/bin`
+
+`source ~/.bashrc`
+
+`colcon build`
+
+`source ~/advanced_robotics_project/iris/install/setup.sh`
+
+`source ~/.bashrc`
