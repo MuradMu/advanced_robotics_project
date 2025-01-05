@@ -240,6 +240,10 @@ Test YOLOv7 with a sample image:
 
 `echo 'source $HOME/advanced_robotics_project/ardupilot/Tools/completion/completion.bash' >> ~/.bashrc`
 
+`echo 'export PATH=$PATH:$HOME/advanced_robotics_project/ardupilot/Tools/autotest' >> ~/.bashrc`
+
+`echo 'export PATH=/usr/lib/ccache:$PATH' >> ~/.bashrc`
+
 
 
 
