@@ -23,12 +23,14 @@ class AutonomousMission(Node):
         self.target_lat = None
         self.target_lon = None
         
+        # Subscriber לקבלת קואורדינטות XY
         self.subscription = self.create_subscription(
             Point,
             '/xy_coordinates',
             self.coordinates_callback,
             10)
         
+        # Subscriber לקבלת קואורדינטות יעד בזמן אמת
         self.destination_subscription = self.create_subscription(
             Point,
             '/destination_coordinates',
@@ -39,9 +41,9 @@ class AutonomousMission(Node):
         self.h_y = 360
         self.groundspeed = 0.25
         self.mission_complete = False
-        self.start_location = None  
+        self.start_location = None  # משתנה לשמירת נקודת ההתחלה של הרחפן
 
-
+    # פונקציית callback לקבלת קואורדינטות יעד
     def destination_callback(self, msg):
         self.target_lat = msg.x  # Latitude
         self.target_lon = msg.y  # Longitude
@@ -49,11 +51,11 @@ class AutonomousMission(Node):
 
     def ConnectToVehicle(self):
         parser = argparse.ArgumentParser()
-        parser.add_argument('--connect', default='127.0.0.1:5760')
+        parser.add_argument('--connect', default='127.0.0.1:14550')
         args = parser.parse_args()
 
         print('Connecting to vehicle on: %s' % args.connect)
-        vehicle = connect(args.connect, baud=5760, wait_ready=True, timeout=60)
+        vehicle = connect(args.connect, baud=57600, wait_ready=True, timeout=60)
         return vehicle
     
     def coordinates_callback(self, msg):
@@ -212,14 +214,14 @@ class AutonomousMission(Node):
         alt = 10
         self.ArmAndTakeoff(alt)
 
-       
+        # המתנה לקבלת קואורדינטות יעד
         while self.target_lat is None or self.target_lon is None:
             self.get_logger().info("Waiting for destination coordinates...")
             time.sleep(1)
 
         self.get_logger().info(f"Flying to: Lat: {self.target_lat}, Lon: {self.target_lon}")
 
-    
+        # טיסה ליעד שקיבלנו
         self.GotoLocation(self.target_lat, self.target_lon, alt)
         time.sleep(4)
 

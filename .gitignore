@@ -1,7 +1,10 @@
 # Ignore build files
-/build/
-/install/
-/devel/
+iris/build/
+iris/install/
+iris/devel/
+iris/terrain
+iris/log/
+iris/logs/
 
 # Ignore log files
 *.log

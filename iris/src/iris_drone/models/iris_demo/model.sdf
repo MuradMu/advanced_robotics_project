@@ -2,7 +2,7 @@
 <sdf version='1.5'>
   <model name='iris_demo'>
 
-    <pose>1 1 0.5 0 0 0</pose>
+    <pose>0 0 1 0 0 0</pose>
 
     <link name='base_link'>
       <velocity_decay>
@@ -723,7 +723,7 @@
      </collision>
 
       <sensor name="camera" type="camera">
-        <pose>0 -0.01 -0.10 -1.57 0 -1.57</pose>        <!--downward-->
+        <pose>0 -0.1 0 -1.55 0 -1</pose>        <!--downward-->
         <camera>
           <horizontal_fov>1.085</horizontal_fov>
           <image>

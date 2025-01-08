@@ -39,12 +39,12 @@ class AutonomousMission(Node):
     
     def ConnectToVehicle(self):
         parser = argparse.ArgumentParser()
-        parser.add_argument('--connect', default='tcp:127.0.0.1:5760')
+        parser.add_argument('--connect', default='127.0.0.1:14550')
         args = parser.parse_args()
 
         # Connect to the Vehicle
         print ('Connecting to vehicle on: %s' % args.connect)
-        vehicle = connect(args.connect, wait_ready=True, timeout=60)
+        vehicle = connect(args.connect, baud=57600, wait_ready=True, timeout=60)
         return vehicle
     
     def coordinates_callback(self, msg):
