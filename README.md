@@ -230,7 +230,7 @@ Test YOLOv7 with a sample image:
 
 `cd ~/advanced_robotics_project/yolov7`
 
-`source yolov7_env/bin/activate`
+`python detect.py --source inference/images/horses.jpg --weights yolov7.pt`
 
 # building the project
 
@@ -246,8 +246,6 @@ Test YOLOv7 with a sample image:
 
 
 
-
-`python detect.py --source inference/images/horses.jpg --weights yolov7.pt`
 
 `cd ~/advanced_robotics_project/iris`
 
