@@ -32,7 +32,7 @@ def generate_launch_description():
     #     'iris_with_ardupilot/model.sdf'
     # )
 
-    sdf_file = "/home/murad/advanced_robotics_project/iris/src/iris_drone/models/iris_demo/model.sdf"
+    sdf_file = "~/advanced_robotics_project/iris/src/iris_drone/models/iris_demo/model.sdf"
 
     if 'GAZEBO_MODEL_PATH' in os.environ:
         model_path =  os.environ['GAZEBO_MODEL_PATH'] \

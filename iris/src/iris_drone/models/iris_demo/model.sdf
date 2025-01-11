@@ -2,7 +2,7 @@
 <sdf version='1.5'>
   <model name='iris_demo'>
 
-    <pose>0 0 0.5 0 0 0</pose>
+    <pose>-4.166439 3.118838 0.194500 0 0 0</pose>
 
     <link name='base_link'>
       <velocity_decay>
