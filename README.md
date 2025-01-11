@@ -235,6 +235,10 @@ Test YOLOv7 with a sample image:
 
 `python detect.py --source inference/images/horses.jpg --weights yolov7.pt`
 
+# change file paths in all files to current user
+
+`find ~/advanced_robotics_project -type f -exec sed -i "s/murad/$(whoami)/g" {} +`
+
 # building the project
 
 `echo 'export GAZEBO_MODEL_PATH=~/advanced_robotics_project/iris/src/iris_drone/models' >> ~/.bashrc`
