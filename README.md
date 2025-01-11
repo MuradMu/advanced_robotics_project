@@ -2,6 +2,9 @@
 
 This project works best on ubuntu 22.04
 
+[Screencast from 11-01-25 13:05:59.webm](https://github.com/user-attachments/assets/4ccd1ff0-bf4d-4771-ab53-d35726e026a2)
+
+
 ## Step 1: Setting Up ROS2
 
 Set locale
@@ -268,3 +271,65 @@ Test YOLOv7 with a sample image:
 `source ~/advanced_robotics_project/iris/install/setup.sh`
 
 `source ~/.bashrc`
+
+
+## copy the opject detection code to the yolov7 directory:
+
+`cp ~/advanced_robotics_project/ros2_yolo.py ~/advanced_robotics_project/yolov7/`
+
+
+## running the project:
+
+### in termenal 1:
+
+`cd ~/advanced_robotics_project/iris`
+
+`colcon build`
+
+`source ~/advanced_robotics_project/iris/install/setup.sh`
+
+`ros2 launch iris_drone iris.launch.py`
+
+### in termenal 2:
+
+`cd ~/advanced_robotics_project/yolov7`
+
+`python3 ros2_yolo.py`
+
+or if you want to change the target object use:
+
+`python3 ros2_yolo.py [target object]`
+
+example:
+
+`python3 ros2_yolo.py chair`
+
+### in termenal 3:
+
+`cd ~/advanced_robotics_project/iris`
+
+`colcon build`
+
+`source ~/advanced_robotics_project/iris/install/setup.sh`
+
+`ros2 run iris_drone mission`
+
+or if you want to run the real time node:
+
+`ros2 run iris_drone real_time_node`
+
+Adding Search Points: To add search points in the mission code, use the following command structure:
+
+`self.GotoLocation(-35.3630969, 149.1651725, alt)`
+
+`self.GotoLocation(-35.3630969, 149.1651725, alt)`
+
+`self.GotoLocation(-35.3630969, 149.1651725, alt)`
+
+`self.GotoLocation(-35.3630969, 149.1651725, alt)`
+
+For real-time point sending, open a new terminal and execute:
+
+`ros2 topic pub /destination_coordinates geometry_msgs/Point "{x: -35.363244, y: 149.1652153, z: 5.0}"`
+
+`ros2 topic pub /destination_coordinates geometry_msgs/Point "{x: -35.3630969, y: 149.1651725, z: 5.0}"`
