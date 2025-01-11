@@ -240,6 +240,7 @@ class AutonomousMission(Node):
             print(" Altitude: ", self.vehicle.location.global_relative_frame.alt)
             if self.vehicle.location.global_relative_frame.alt <=2.5:
                 print(f"Reached target : {self.vehicle.location.global_frame.lat}, {self.vehicle.location.global_frame.lon}")
+                
                 return
 
 
