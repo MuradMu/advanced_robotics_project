@@ -1,8 +1,8 @@
 # Drone Advanced Robotics Project
 
-Murad Murad, 324994219
+## Murad Murad, 324994219
 
-Jwana Abuleil, 318696317
+## Jwana Abuleil, 318696317
 
 This project works best on ubuntu 22.04
 
