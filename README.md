@@ -1,5 +1,8 @@
 # Drone Advanced Robotics Project
 
+Murad Murad, 324994219
+Jwana Abuleil, 318696317
+
 This project works best on ubuntu 22.04
 
 [Screencast from 11-01-25 13:05:59.webm](https://github.com/user-attachments/assets/4ccd1ff0-bf4d-4771-ab53-d35726e026a2)
