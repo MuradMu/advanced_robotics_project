@@ -1,8 +1,10 @@
 # Drone Advanced Robotics Project
 
-## Murad Murad, 324994219
+The Advanced Robotics Project focuses on developing an autonomous drone capable of navigating
+a simulated environment, identifying a predefined object, landing on it, and returning to its initial
+position. The system is implemented using ROS2, Gazebo, ArduPilot, and YOLOv7, ensuring
+seamless simulation.
 
-## Jwana Abuleil, 318696317
 
 This project works best on ubuntu 22.04
 
@@ -341,3 +343,17 @@ For real-time point sending, open a new terminal and execute:
 `ros2 topic pub /destination_coordinates geometry_msgs/Point "{x: -35.363244, y: 149.1652153, z: 5.0}"`
 
 `ros2 topic pub /destination_coordinates geometry_msgs/Point "{x: -35.3630969, y: 149.1651725, z: 5.0}"`
+
+References & Resources
+1. ROS2 Documentation - https://docs.ros.org/en/rolling/
+2. Gazebo Simulation - http://gazebosim.org/tutorials
+3. ArduPilot SITL Setup - https://ardupilot.org/dev/docs/sitl-simulator-software-in-theloop.html
+4. YOLOv7 Object Detection - https://github.com/WongKinYiu/yolov7
+5. MAVLink Protocol - https://mavlink.io/en/
+6. DroneKit Python API - https://dronekit-python.readthedocs.io/en/latest/
+7. TF Transformations in ROS2 - https://docs.ros.org/en/foxy/Tutorials/tf2.html
+8. Connicting ArduPilot With Gazebo -
+https://github.com/ArduPilot/ardupilot_gazebo/blob/main/
+9. World And Models - https://github.com/leonhartyao/gazebo_models_worlds_collection
+10. Autonomous Landing UAV: ROS-based autonomous landing system -
+https://github.com/MikeS96/autonomous_landing_uav
